@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css loader</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+      body{
+          width: 100vw;
+          height: 100vh;
+          background-size: cover;
+          background-color: bisque;
+          display: grid;
+          align-items: center;
+          justify-content: center;
+      }
+      .loader{
+          border: 10px solid rgb(108, 86, 86);
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border-top: 10px solid rgb(22, 22, 123);
+          animation: spin 2s linear infinite;
+      }
+
+      @keyframes spin {
+          from{
+              transform: rotate(0deg);
+          }to{
+              transform: rotate(360deg);
+          }
+      }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>

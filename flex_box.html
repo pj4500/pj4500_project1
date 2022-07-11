@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        body{
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,228,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .flex-box {
+            display: flex;
+        }
+
+        .flex-box>div {
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 20px;
+        }
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="table" >
+        <table >
+            <tr>
+                <th>&nbsp</th>
+                <th>person</th>
+                <th>paise</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>pj</td>
+                <td>699999</td>
+            </tr>
+            <tr>
+                <td>dj</td>
+                <td>515255</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
